@@ -86,7 +86,6 @@ content = """
 </body>
 </html>
 """
-
 class myhandler(BaseHTTPRequestHandler):
      def do_GET(self):
          print("request received")
@@ -99,13 +98,13 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running....")
 httpd.serve_forever()
 
-```        
+```   
 
-## OUTPUT:
-### sever side output
-![git log](screenshotb.png)
-![git log](Screenshota.png)
-![git log](screenshotc.png)
+### OUTPUT:
+
 ### client side output
-
+![git log](./screenshotb.png)
+![git log](./screenshota.png)
+![git log](./screenshotc.png)
 ## RESULT:
+The websever for top five programming lanuage is obtained.
