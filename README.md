@@ -86,6 +86,7 @@ content = """
 </body>
 </html>
 """
+
 class myhandler(BaseHTTPRequestHandler):
      def do_GET(self):
          print("request received")
@@ -96,16 +97,15 @@ class myhandler(BaseHTTPRequestHandler):
 server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running....")
-httpd.serve_forever()
-
-```   
+httpd.serve_forever()         
+``` 
 
 ### OUTPUT:
 
 ### client side output
-![git log](./screenshotb.png)
-![git log](./sreenshota.png)
-![git log](./screenshotc.png)
+![git log](Screenshotb.png)
+![git log](Screenshotb.png)
+![git log](Screenshotc.png)
 ### sever side output
 ![git log](./serverside1.png)
 ![git log](./serverside2.png)
