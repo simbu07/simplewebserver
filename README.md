@@ -103,8 +103,8 @@ httpd.serve_forever()
 ### OUTPUT:
 
 ### client side output
-![git log](screenshotb.png)
-![git log](screenshota.png)
-![git log](screenshotc.png)
+![git log](./screenshotb.png)
+![git log](./sreenshota.png)
+![git log](./screenshotc.png)
 ## RESULT:
 The websever for top five programming lanuage is obtained.
