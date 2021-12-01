@@ -104,7 +104,7 @@ httpd.serve_forever()
 
 ### client side output
 ![git log](Screenshotb.png)
-![git log](Screenshotb.png)
+![git log](Screenshota.png)
 ![git log](Screenshotc.png)
 ### sever side output
 ![git log](./serverside1.png)
